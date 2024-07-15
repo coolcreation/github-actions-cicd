@@ -24,3 +24,15 @@ git checkout main   ( first switch to a different branch )
 git branch -d my-second-branch   ( delete )
 git branch -D my-second-branch   ( force delete - if delete doesn't work )
 ```
+
+If trying to use the same branch name as one that has been deleted on github
+we can try these first, and if it's not updating we can reload vs code by going
+the the command palette and selecting "Reload Window."
+
+To delete a branch
+```md
+git checkout main   ( switch to a different branch to delete current branch )
+git fetch --prune
+git branch -d my-second-branch   ( delete )
+git branch -D my-second-branch   ( force delete - if delete doesn't work )
+```

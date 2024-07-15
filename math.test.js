@@ -6,7 +6,7 @@ describe("Math.js tests", () => {
   });
 
   it("Should test subtract", () => {
-    expect(subtract(2, 2)).toBe(1);
+    expect(subtract(2, 2)).toBe(0);
   });
 
   it("Should test divide", () => {
