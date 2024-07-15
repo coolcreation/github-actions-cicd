@@ -27,4 +27,4 @@ git checkout main   ( switch to a different branch to delete current branch )
 git fetch --prune
 git branch -d my-second-branch   ( delete )
 git branch -D my-second-branch   ( force delete - if delete doesn't work )
-```
+``` 
