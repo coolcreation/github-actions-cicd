@@ -1,4 +1,4 @@
-Sure, here's a basic `.github/workflows/ci.yml` file that leverages your existing `package.json` scripts for deployment:
+
 
 ```yaml
 name: CI/CD with Vitest
